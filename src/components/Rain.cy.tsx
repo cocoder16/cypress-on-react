@@ -1,7 +1,7 @@
 import Rain from "src/components/Rain";
 
-describe("Rain.cy.ts", () => {
-  it("playground", () => {
+describe("Rain", () => {
+  it("Render initial", () => {
     cy.mount(<Rain />);
   });
 });
